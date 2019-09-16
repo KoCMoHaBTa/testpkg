@@ -10,6 +10,25 @@
 		E62E9F6B232FA60700DB48A5 /* TestExistingProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62E9F61232FA60700DB48A5 /* TestExistingProject.framework */; };
 		E62E9F70232FA60700DB48A5 /* TestExistingProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F6F232FA60700DB48A5 /* TestExistingProjectTests.swift */; };
 		E62E9F72232FA60700DB48A5 /* TestExistingProject.h in Headers */ = {isa = PBXBuildFile; fileRef = E62E9F64232FA60700DB48A5 /* TestExistingProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E62E9F8D232FA64200DB48A5 /* AnyEncodableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F7C232FA64200DB48A5 /* AnyEncodableValue.swift */; };
+		E62E9F8E232FA64200DB48A5 /* DynamicCodingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F7D232FA64200DB48A5 /* DynamicCodingKey.swift */; };
+		E62E9F8F232FA64200DB48A5 /* Decodable+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F7E232FA64200DB48A5 /* Decodable+JSON.swift */; };
+		E62E9F90232FA64200DB48A5 /* UnkeyedDecodingContainer+Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F7F232FA64200DB48A5 /* UnkeyedDecodingContainer+Generics.swift */; };
+		E62E9F91232FA64200DB48A5 /* Encodable+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F80232FA64200DB48A5 /* Encodable+JSON.swift */; };
+		E62E9F92232FA64200DB48A5 /* KeyedDecodingContainer+Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F81232FA64200DB48A5 /* KeyedDecodingContainer+Generics.swift */; };
+		E62E9F93232FA64200DB48A5 /* Data+URLEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F83232FA64200DB48A5 /* Data+URLEncoding.swift */; };
+		E62E9F94232FA64200DB48A5 /* String+URLEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F84232FA64200DB48A5 /* String+URLEncoding.swift */; };
+		E62E9F95232FA64200DB48A5 /* Dictionary+URLEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F85232FA64200DB48A5 /* Dictionary+URLEncoding.swift */; };
+		E62E9F96232FA64200DB48A5 /* URL+QueryOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F86232FA64200DB48A5 /* URL+QueryOperator.swift */; };
+		E62E9F97232FA64200DB48A5 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F88232FA64200DB48A5 /* MultipartFormData.swift */; };
+		E62E9F98232FA64200DB48A5 /* MultipartFormDataPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F89232FA64200DB48A5 /* MultipartFormDataPart.swift */; };
+		E62E9F99232FA64200DB48A5 /* URLRequest+HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F8B232FA64200DB48A5 /* URLRequest+HTTPMethod.swift */; };
+		E62E9F9A232FA64200DB48A5 /* URLRequest+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F8C232FA64200DB48A5 /* URLRequest+JSON.swift */; };
+		E62E9FA0232FA65700DB48A5 /* AnyEncodableValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F9B232FA65700DB48A5 /* AnyEncodableValueTests.swift */; };
+		E62E9FA1232FA65700DB48A5 /* MHNetworkingKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F9C232FA65700DB48A5 /* MHNetworkingKitTests.swift */; };
+		E62E9FA2232FA65700DB48A5 /* URLEncodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F9D232FA65700DB48A5 /* URLEncodingTests.swift */; };
+		E62E9FA3232FA65700DB48A5 /* XCTestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F9E232FA65700DB48A5 /* XCTestExtensions.swift */; };
+		E62E9FA4232FA65700DB48A5 /* MultipartFormDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E9F9F232FA65700DB48A5 /* MultipartFormDataTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +48,25 @@
 		E62E9F6A232FA60700DB48A5 /* TestExistingProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestExistingProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E62E9F6F232FA60700DB48A5 /* TestExistingProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExistingProjectTests.swift; sourceTree = "<group>"; };
 		E62E9F71232FA60700DB48A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E62E9F7C232FA64200DB48A5 /* AnyEncodableValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyEncodableValue.swift; sourceTree = "<group>"; };
+		E62E9F7D232FA64200DB48A5 /* DynamicCodingKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicCodingKey.swift; sourceTree = "<group>"; };
+		E62E9F7E232FA64200DB48A5 /* Decodable+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Decodable+JSON.swift"; sourceTree = "<group>"; };
+		E62E9F7F232FA64200DB48A5 /* UnkeyedDecodingContainer+Generics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UnkeyedDecodingContainer+Generics.swift"; sourceTree = "<group>"; };
+		E62E9F80232FA64200DB48A5 /* Encodable+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+JSON.swift"; sourceTree = "<group>"; };
+		E62E9F81232FA64200DB48A5 /* KeyedDecodingContainer+Generics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KeyedDecodingContainer+Generics.swift"; sourceTree = "<group>"; };
+		E62E9F83232FA64200DB48A5 /* Data+URLEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+URLEncoding.swift"; sourceTree = "<group>"; };
+		E62E9F84232FA64200DB48A5 /* String+URLEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLEncoding.swift"; sourceTree = "<group>"; };
+		E62E9F85232FA64200DB48A5 /* Dictionary+URLEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+URLEncoding.swift"; sourceTree = "<group>"; };
+		E62E9F86232FA64200DB48A5 /* URL+QueryOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+QueryOperator.swift"; sourceTree = "<group>"; };
+		E62E9F88232FA64200DB48A5 /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		E62E9F89232FA64200DB48A5 /* MultipartFormDataPart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormDataPart.swift; sourceTree = "<group>"; };
+		E62E9F8B232FA64200DB48A5 /* URLRequest+HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+HTTPMethod.swift"; sourceTree = "<group>"; };
+		E62E9F8C232FA64200DB48A5 /* URLRequest+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+JSON.swift"; sourceTree = "<group>"; };
+		E62E9F9B232FA65700DB48A5 /* AnyEncodableValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyEncodableValueTests.swift; sourceTree = "<group>"; };
+		E62E9F9C232FA65700DB48A5 /* MHNetworkingKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHNetworkingKitTests.swift; sourceTree = "<group>"; };
+		E62E9F9D232FA65700DB48A5 /* URLEncodingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLEncodingTests.swift; sourceTree = "<group>"; };
+		E62E9F9E232FA65700DB48A5 /* XCTestExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestExtensions.swift; sourceTree = "<group>"; };
+		E62E9F9F232FA65700DB48A5 /* MultipartFormDataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormDataTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +111,10 @@
 			children = (
 				E62E9F64232FA60700DB48A5 /* TestExistingProject.h */,
 				E62E9F65232FA60700DB48A5 /* Info.plist */,
+				E62E9F7B232FA64200DB48A5 /* CodableUtilities */,
+				E62E9F87232FA64200DB48A5 /* MultipartFormData */,
+				E62E9F82232FA64200DB48A5 /* URLEncodingUtilities */,
+				E62E9F8A232FA64200DB48A5 /* URLRequestUtilities */,
 			);
 			path = TestExistingProject;
 			sourceTree = "<group>";
@@ -82,8 +124,55 @@
 			children = (
 				E62E9F6F232FA60700DB48A5 /* TestExistingProjectTests.swift */,
 				E62E9F71232FA60700DB48A5 /* Info.plist */,
+				E62E9F9B232FA65700DB48A5 /* AnyEncodableValueTests.swift */,
+				E62E9F9C232FA65700DB48A5 /* MHNetworkingKitTests.swift */,
+				E62E9F9F232FA65700DB48A5 /* MultipartFormDataTests.swift */,
+				E62E9F9D232FA65700DB48A5 /* URLEncodingTests.swift */,
+				E62E9F9E232FA65700DB48A5 /* XCTestExtensions.swift */,
 			);
 			path = TestExistingProjectTests;
+			sourceTree = "<group>";
+		};
+		E62E9F7B232FA64200DB48A5 /* CodableUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				E62E9F7C232FA64200DB48A5 /* AnyEncodableValue.swift */,
+				E62E9F7D232FA64200DB48A5 /* DynamicCodingKey.swift */,
+				E62E9F7E232FA64200DB48A5 /* Decodable+JSON.swift */,
+				E62E9F7F232FA64200DB48A5 /* UnkeyedDecodingContainer+Generics.swift */,
+				E62E9F80232FA64200DB48A5 /* Encodable+JSON.swift */,
+				E62E9F81232FA64200DB48A5 /* KeyedDecodingContainer+Generics.swift */,
+			);
+			path = CodableUtilities;
+			sourceTree = "<group>";
+		};
+		E62E9F82232FA64200DB48A5 /* URLEncodingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				E62E9F83232FA64200DB48A5 /* Data+URLEncoding.swift */,
+				E62E9F84232FA64200DB48A5 /* String+URLEncoding.swift */,
+				E62E9F85232FA64200DB48A5 /* Dictionary+URLEncoding.swift */,
+				E62E9F86232FA64200DB48A5 /* URL+QueryOperator.swift */,
+			);
+			path = URLEncodingUtilities;
+			sourceTree = "<group>";
+		};
+		E62E9F87232FA64200DB48A5 /* MultipartFormData */ = {
+			isa = PBXGroup;
+			children = (
+				E62E9F88232FA64200DB48A5 /* MultipartFormData.swift */,
+				E62E9F89232FA64200DB48A5 /* MultipartFormDataPart.swift */,
+			);
+			path = MultipartFormData;
+			sourceTree = "<group>";
+		};
+		E62E9F8A232FA64200DB48A5 /* URLRequestUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				E62E9F8B232FA64200DB48A5 /* URLRequest+HTTPMethod.swift */,
+				E62E9F8C232FA64200DB48A5 /* URLRequest+JSON.swift */,
+			);
+			path = URLRequestUtilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +284,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E62E9F96232FA64200DB48A5 /* URL+QueryOperator.swift in Sources */,
+				E62E9F98232FA64200DB48A5 /* MultipartFormDataPart.swift in Sources */,
+				E62E9F95232FA64200DB48A5 /* Dictionary+URLEncoding.swift in Sources */,
+				E62E9F9A232FA64200DB48A5 /* URLRequest+JSON.swift in Sources */,
+				E62E9F99232FA64200DB48A5 /* URLRequest+HTTPMethod.swift in Sources */,
+				E62E9F8D232FA64200DB48A5 /* AnyEncodableValue.swift in Sources */,
+				E62E9F93232FA64200DB48A5 /* Data+URLEncoding.swift in Sources */,
+				E62E9F8F232FA64200DB48A5 /* Decodable+JSON.swift in Sources */,
+				E62E9F97232FA64200DB48A5 /* MultipartFormData.swift in Sources */,
+				E62E9F91232FA64200DB48A5 /* Encodable+JSON.swift in Sources */,
+				E62E9F92232FA64200DB48A5 /* KeyedDecodingContainer+Generics.swift in Sources */,
+				E62E9F90232FA64200DB48A5 /* UnkeyedDecodingContainer+Generics.swift in Sources */,
+				E62E9F8E232FA64200DB48A5 /* DynamicCodingKey.swift in Sources */,
+				E62E9F94232FA64200DB48A5 /* String+URLEncoding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +305,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E62E9FA0232FA65700DB48A5 /* AnyEncodableValueTests.swift in Sources */,
+				E62E9FA3232FA65700DB48A5 /* XCTestExtensions.swift in Sources */,
 				E62E9F70232FA60700DB48A5 /* TestExistingProjectTests.swift in Sources */,
+				E62E9FA2232FA65700DB48A5 /* URLEncodingTests.swift in Sources */,
+				E62E9FA4232FA65700DB48A5 /* MultipartFormDataTests.swift in Sources */,
+				E62E9FA1232FA65700DB48A5 /* MHNetworkingKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +494,7 @@
 		E62E9F79232FA60700DB48A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestExistingProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +512,7 @@
 		E62E9F7A232FA60700DB48A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestExistingProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
